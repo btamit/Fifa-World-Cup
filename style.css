@@ -174,11 +174,19 @@ Media Queries For Mobile Device
         margin-bottom: 30px;
     }
 
-    .left-banner p{
-        font-size: 15px;
+    /* .left-banner p{
+        font-size: 11px;
         text-align: center;
-        margin:0 10px;
-    }
+        text-overflow: ellipsis;
+    } */
+    .left-banner p{
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        border: 1px solid #000000;
+  }
+
+
     .banner-button a{
         margin-left: 33%;
         padding: 8px;
