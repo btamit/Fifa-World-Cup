@@ -126,7 +126,7 @@ span {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 12px;
-    padding: 30px;
+    padding: 10px;
    
 }
 /*  Blog portion ends */
