@@ -1,0 +1,139 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0;
+}
+main{
+    margin: 40px 25px;
+
+}
+
+/* Banner portion starts */
+.banner{
+   background-color: black;
+   align-items: center; 
+   display:flex;
+   justify-content: center;
+   padding-bottom: 100px;
+   border-radius: 20px;
+   margin-bottom: 60px;
+}
+.left-banner{
+    color:white;
+    width: 513px;
+    
+    
+}
+.left-banner h2{
+    font-size:70px;
+    line-height:80px;
+    margin-bottom: 20px;
+}
+.left-banner p {
+    font-size: 16px;
+}
+.banner-button {
+    margin-top: 30px;
+}
+.banner-button a{
+    color:white;
+    text-decoration: none;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    margin-top: 30px;
+}
+.btn-arrow{
+    margin-left: 10px;
+}
+/* Banner portion ends */
+
+/*  Blog portion starts */
+.live-shows-button{
+    background:black;
+    border-radius: 5px;
+    padding-top: 70px;
+    border-radius: 20px;
+}
+.btn-group button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 24px;
+    cursor: pointer;
+    width: 76%;
+    display: block;
+    text-align: center;
+    margin-left: 12%;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+button {
+    padding: 7px 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #161616;
+}
+button#all-btn {
+    margin: 20px 0;
+    margin-left: 12%;
+}
+button#blog-btn {
+    color: white;
+    background: #DD0000;
+}
+.transfer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 12px;
+}
+.live-telecast{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 0 0 8px 0;
+}
+.live-telecast h3{
+    margin-left: 20px;
+}
+.icons{
+    display:flex;
+}
+.icons p{
+    margin-left: 25px;
+}
+span {
+    padding: 0 10px;
+}
+.transfer-more{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+   
+}
+/*  Blog portion ends */
+
+
+/* Footer starts */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+footer h2{
+    margin-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    font-size: 10px;
+}
+ /* Footer ends  */
