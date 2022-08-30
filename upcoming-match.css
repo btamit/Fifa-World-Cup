@@ -51,6 +51,21 @@ main{
     margin-left: 10px;
 }
 /* Banner portion ends */
+.country-match{
+    display: flex;
+    column-gap: 22px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.country {
+    text-align: center;
+    padding: 40px 0;
+}
+.country p{
+    font-size: 16px;
+}
+
+
 
 /*  Blog portion starts */
 .live-shows-button{
@@ -109,9 +124,6 @@ button#blog-btn {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     padding: 0 0 8px 0;
-}
-.live-telecast h3{
-    margin-left: 20px;
 }
 .icons{
     display:flex;
