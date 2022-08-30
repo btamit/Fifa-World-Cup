@@ -55,7 +55,6 @@ main{
 /*  Blog portion starts */
 .live-shows-button{
     background:black;
-    border-radius: 5px;
     padding-top: 70px;
     border-radius: 20px;
 }
@@ -66,7 +65,9 @@ main{
     padding: 15px 24px;
     cursor: pointer;
     width: 76%;
-    display: block;
+    /* display: block; */
+    display:flex;
+    justify-content: center;
     text-align: center;
     margin-left: 12%;
     font-weight: bold;
@@ -85,9 +86,7 @@ button a {
     text-decoration: none;
     color: black;
 }
-/* button a:visited{
-    color: rgb(233, 136, 119);
-}  */
+
 button#upcoming-btn {
     color: white;
     background: #DD0000;
@@ -100,6 +99,7 @@ button#blog-btn {
     color: white;
     background: #DD0000;
 }
+
 .transfer{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -126,6 +126,7 @@ span {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 12px;
+    padding: 30px;
    
 }
 /*  Blog portion ends */
@@ -155,3 +156,73 @@ footer a{
     font-size: 20px;
 }
  /* Footer ends  */
+
+/* ========================
+Media Queries For Mobile Device 
+=================== */
+@media only screen and (max-width:668px) {
+    body{
+        margin:0 0;
+    }
+    .left-banner h2{
+        font-size:45px;
+        text-align: center;
+    }
+    .left-banner {
+        width: 486px;
+        margin-bottom: 30px;
+    }
+
+    .left-banner p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .banner-button a{
+        margin-left: 33%;
+        padding: 8px;
+    }
+    button {
+        margin-left: 60px;
+    }
+    .live-telecast h3 {
+        font-size: 15px;
+    }
+    .live-transfer{
+        text-align: center;
+        width: 93%;
+    }
+    .live-shows-button {
+         border-radius: 20px;
+         padding: 20px;
+         width: 83%;
+         background-color: black;
+    }
+    .banner{
+        width: 94%;
+    }
+    .icons {
+        margin-left: 34px;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .banner, .tranfer, .transfer-more, .btn-group button{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .transfer-more, .tranfer{
+        flex-direction: column-reverse;
+    }
+    .banner {
+        flex-direction: column;
+    }
+
+     footer a{
+        display: flex;
+        padding: 15px 0;
+        margin-left: 45%;
+    } 
+ 
+}
+
