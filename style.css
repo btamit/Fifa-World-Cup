@@ -167,6 +167,7 @@ Media Queries For Mobile Device
     .left-banner h2{
         font-size:23px;
         text-align: center;
+        margin:0 10px;
     }
     .left-banner {
         width: 486px;
@@ -176,6 +177,7 @@ Media Queries For Mobile Device
     .left-banner p{
         font-size: 15px;
         text-align: center;
+        margin:0 10px;
     }
     .banner-button a{
         margin-left: 33%;
